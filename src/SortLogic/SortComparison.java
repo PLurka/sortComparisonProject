@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-abstract public class SortComparison {
+public abstract class SortComparison {
 
-    List<Integer> generateValues(int listSize, int maxValue, int minValue) {
+    public List<Integer> generateValues(int listSize, int maxValue, int minValue) {
         Random random = new Random();
         List<Integer> generatedList = new ArrayList<>();
         for (int i = 0; i < listSize; ++i) {
@@ -15,6 +15,6 @@ abstract public class SortComparison {
         return generatedList;
     }
 
-    abstract List<Integer> sortValues(List<Integer> unsortedList);
+    public abstract List<Integer> sortValues(List<Integer> unsortedList);
 
 }
