@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7fdb2106-bd59-4907-b552-e2f014becb35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SortLogic/MergeSortSeq/MergeSortSeq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortLogic/SelectionSort/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortLogic/MergeSortSeq/MergeSortSeq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortLogic/MergeSortSeq/MergeSortSeq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortLogic/SelectionSort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortLogic/SelectionSort/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SortLogic/SortComparison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortLogic/SortComparison.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +52,7 @@
     <property name="android.sdk.path" value="E:/AndroidSDK" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605957036040" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
@@ -42,17 +61,6 @@
     <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sort" />
       <module name="sortComparisonProject" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -75,38 +83,37 @@
       <option name="presentableId" value="Default" />
       <updated>1605956092567</updated>
       <workItem from="1605956095915" duration="938000" />
-      <workItem from="1605960185260" duration="3860000" />
+      <workItem from="1605960185260" duration="5175000" />
+      <workItem from="1608374418471" duration="5042000" />
     </task>
+    <task id="LOCAL-00001" summary="SelectionSort init form">
+      <created>1605964119244</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605964119244</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605960508812">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1605960508812" />
-    <state x="801" y="260" width="374" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1605960803112">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="801" y="260" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1605960803112" />
-    <state width="1807" height="368" key="GridCell.Tab.0.bottom" timestamp="1605963960522">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1807" height="368" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1605963960522" />
-    <state width="1807" height="368" key="GridCell.Tab.0.center" timestamp="1605963960522">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1807" height="368" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1605963960522" />
-    <state width="1807" height="368" key="GridCell.Tab.0.left" timestamp="1605963960522">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1807" height="368" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1605963960522" />
-    <state width="1807" height="368" key="GridCell.Tab.0.right" timestamp="1605963960522">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1807" height="368" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1605963960522" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SelectionSort init form" />
+    <option name="LAST_COMMIT_MESSAGE" value="SelectionSort init form" />
   </component>
   <component name="masterDetails">
     <states>

@@ -15,6 +15,6 @@ public abstract class SortComparison {
         return generatedList;
     }
 
-    public abstract List<Integer> sortValues(List<Integer> unsortedList);
+    public abstract long sortValues(List<Integer> unsortedList); // wcześniej zwracaliśmy List<Integer> ale chcemy mierzyć czas
 
 }

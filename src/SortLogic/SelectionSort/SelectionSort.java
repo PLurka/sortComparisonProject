@@ -5,24 +5,28 @@ import java.util.List;
 
 public class SelectionSort extends SortComparison {
 
-    public List<Integer> sortValues(List<Integer> unsortedList) {
-        int n = unsortedList.size();
-
-        // traverse unsorted array
+    public long sortValues(List<Integer> list) {
+        long startTime = System.nanoTime();
+        // ------selectionSort-----
+        int n = list.size();
         for (int i = 0; i < n-1; i++)
         {
-            // Find the minimum element in unsorted array
             int min_idx = i;
             for (int j = i+1; j < n; j++)
-                if (unsortedList.get(j) < unsortedList.get(min_idx))
+                if (list.get(j) < list.get(min_idx))
                     min_idx = j;
 
-            // swap minimum element with compared element
-            int temp = unsortedList.get(min_idx);
-            unsortedList.set(min_idx, unsortedList.get(i));
-            unsortedList.set(i, temp);
+            int temp = list.get(min_idx);
+            list.set(min_idx, list.get(i));
+            list.set(i, temp);
         }
-        return unsortedList;
+        // ---------
+        long elapsedTime = System.nanoTime() - startTime;
+        System.out.println("Posortowana lista przez wybieranie");
+        for (Integer integer : list) {
+            System.out.print(integer + ", ");
+        }
+        return elapsedTime;
     }
 
 }
