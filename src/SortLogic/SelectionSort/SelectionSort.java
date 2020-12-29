@@ -8,7 +8,7 @@ public class SelectionSort extends SortComparison {
 
     public long sortValues(List<Integer> initialList) {
         long startTime = System.nanoTime();
-        // ------selectionSort-----
+
         int numberOfElements = initialList.size();
         for (int i = 0; i < numberOfElements - 1; i++) {
             int minimalValueIndex = i;
@@ -20,7 +20,7 @@ public class SelectionSort extends SortComparison {
             initialList.set(minimalValueIndex, initialList.get(i));
             initialList.set(i, minimalValue);
         }
-        // ---------
+
         long elapsedTime = System.nanoTime() - startTime;
         /*System.out.println("Posortowana lista przez wybieranie");
         for (Integer integer : initialList) {
