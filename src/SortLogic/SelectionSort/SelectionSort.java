@@ -6,24 +6,24 @@ import java.util.List;
 
 public class SelectionSort extends SortComparison {
 
-    public long sortValues(List<Integer> list) {
+    public long sortValues(List<Integer> initialList) {
         long startTime = System.nanoTime();
         // ------selectionSort-----
-        int n = list.size();
-        for (int i = 0; i < n - 1; i++) {
-            int min_idx = i;
-            for (int j = i + 1; j < n; j++)
-                if (list.get(j) < list.get(min_idx))
-                    min_idx = j;
+        int numberOfElements = initialList.size();
+        for (int i = 0; i < numberOfElements - 1; i++) {
+            int minimalValueIndex = i;
+            for (int j = i + 1; j < numberOfElements; j++)
+                if (initialList.get(j) < initialList.get(minimalValueIndex))
+                    minimalValueIndex = j;
 
-            int temp = list.get(min_idx);
-            list.set(min_idx, list.get(i));
-            list.set(i, temp);
+            int temp = initialList.get(minimalValueIndex);
+            initialList.set(minimalValueIndex, initialList.get(i));
+            initialList.set(i, temp);
         }
         // ---------
         long elapsedTime = System.nanoTime() - startTime;
         /*System.out.println("Posortowana lista przez wybieranie");
-        for (Integer integer : list) {
+        for (Integer integer : initialList) {
             System.out.print(integer + ", ");
         }*/
         return elapsedTime;
