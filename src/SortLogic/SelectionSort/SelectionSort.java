@@ -16,9 +16,9 @@ public class SelectionSort extends SortComparison {
                 if (initialList.get(j) < initialList.get(minimalValueIndex))
                     minimalValueIndex = j;
 
-            int temp = initialList.get(minimalValueIndex);
+            int minimalValue = initialList.get(minimalValueIndex);
             initialList.set(minimalValueIndex, initialList.get(i));
-            initialList.set(i, temp);
+            initialList.set(i, minimalValue);
         }
         // ---------
         long elapsedTime = System.nanoTime() - startTime;
