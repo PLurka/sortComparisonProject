@@ -1,6 +1,7 @@
 package SortLogic.SelectionSort;
 
 import SortLogic.SortComparison;
+
 import java.util.List;
 
 public class SelectionSort extends SortComparison {
@@ -9,10 +10,9 @@ public class SelectionSort extends SortComparison {
         long startTime = System.nanoTime();
         // ------selectionSort-----
         int n = list.size();
-        for (int i = 0; i < n-1; i++)
-        {
+        for (int i = 0; i < n - 1; i++) {
             int min_idx = i;
-            for (int j = i+1; j < n; j++)
+            for (int j = i + 1; j < n; j++)
                 if (list.get(j) < list.get(min_idx))
                     min_idx = j;
 
@@ -22,10 +22,10 @@ public class SelectionSort extends SortComparison {
         }
         // ---------
         long elapsedTime = System.nanoTime() - startTime;
-        System.out.println("Posortowana lista przez wybieranie");
+        /*System.out.println("Posortowana lista przez wybieranie");
         for (Integer integer : list) {
             System.out.print(integer + ", ");
-        }
+        }*/
         return elapsedTime;
     }
 
