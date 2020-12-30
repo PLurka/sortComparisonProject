@@ -1,31 +1,31 @@
 package SortLogic.SelectionSort;
 
-import SortLogic.SortComparison;
+public class SelectionSort {
 
-import java.util.List;
+    public long sortValues(int[] initialArray) {
 
-public class SelectionSort extends SortComparison {
-
-    public long sortValues(List<Integer> initialList) {
         long startTime = System.nanoTime();
-
-        int numberOfElements = initialList.size();
+        int numberOfElements = initialArray.length;
         for (int i = 0; i < numberOfElements - 1; i++) {
             int minimalValueIndex = i;
             for (int j = i + 1; j < numberOfElements; j++)
-                if (initialList.get(j) < initialList.get(minimalValueIndex))
+                if (initialArray[j] < initialArray[minimalValueIndex])
                     minimalValueIndex = j;
 
-            int minimalValue = initialList.get(minimalValueIndex);
-            initialList.set(minimalValueIndex, initialList.get(i));
-            initialList.set(i, minimalValue);
+            int minimalValue = initialArray[minimalValueIndex];
+            initialArray[minimalValueIndex] = initialArray[i];
+            initialArray[i] = minimalValue;
+//            System.out.println("\niteracja " + i + ": ");
+//            for (Integer integer : initialArray) {
+//                System.out.print(integer + ", ");
+//            }
         }
 
         long elapsedTime = System.nanoTime() - startTime;
-        /*System.out.println("Posortowana lista przez wybieranie");
-        for (Integer integer : initialList) {
-            System.out.print(integer + ", ");
-        }*/
+//        System.out.println("Posortowana lista przez wybieranie");
+//        for (Integer integer : initialArray) {
+//            System.out.print(integer + ", ");
+//        }
         return elapsedTime;
     }
 
