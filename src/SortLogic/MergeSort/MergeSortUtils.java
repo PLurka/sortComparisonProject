@@ -9,19 +9,19 @@ public interface MergeSortUtils {
 
         int helperLeftIndex = fromIndex;
         int helperRightIndex = middleIndex + 1;
-        int current = fromIndex;
+        int currentIndex = fromIndex;
 
         while (helperLeftIndex <= middleIndex && helperRightIndex <= toIndex) {
             if (helperArray[helperLeftIndex] <= helperArray[helperRightIndex]) {
-                initialArray[current] = helperArray[helperLeftIndex++];
+                initialArray[currentIndex] = helperArray[helperLeftIndex++];
             } else {
-                initialArray[current] = helperArray[helperRightIndex++];
+                initialArray[currentIndex] = helperArray[helperRightIndex++];
             }
-            current++;
+            currentIndex++;
         }
 
         while (helperLeftIndex <= middleIndex) {
-            initialArray[current++] = helperArray[helperLeftIndex++];
+            initialArray[currentIndex++] = helperArray[helperLeftIndex++];
         }
     }
 }

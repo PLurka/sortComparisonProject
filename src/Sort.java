@@ -12,7 +12,7 @@ public class Sort {
     SelectionSort selectionSort;
 
     public static void main(String[] args) {
-        List<Integer> generatedValues = SortComparison.generateValues(50000, 100, 1);
+        List<Integer> generatedValues = SortComparison.generateValues(1000, 100, 1);
         System.out.println(generatedValues.toString());
 
         SelectionSort selectionSort = new SelectionSort();
