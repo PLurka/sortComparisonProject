@@ -20,10 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fdb2106-bd59-4907-b552-e2f014becb35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/MainFrame.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SortLogic/SelectionSort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortLogic/SelectionSort/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortLogic/SortComparison.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +147,7 @@
     <property name="android.sdk.path" value="E:/AndroidSDK" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609329312221" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SubiektKsiegi/Bookkeeper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -162,13 +163,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,7 +182,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -196,6 +199,7 @@
       <workItem from="1609268915188" duration="4308000" />
       <workItem from="1609274283629" duration="8215000" />
       <workItem from="1609326372402" duration="2731000" />
+      <workItem from="1609349283163" duration="9783000" />
     </task>
     <task id="LOCAL-00001" summary="SelectionSort init form">
       <created>1605964119244</created>
@@ -232,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609281886869</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Array selection sort, code reorganization">
+      <created>1609345257634</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609345257634</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -277,7 +288,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -309,7 +320,8 @@
     <MESSAGE value="SelectionSort init form" />
     <MESSAGE value="Added MergeSort new approach with interesting results using ForkJoinPool" />
     <MESSAGE value="Code is more self explanatory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code is more self explanatory" />
+    <MESSAGE value="Array selection sort, code reorganization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array selection sort, code reorganization" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
