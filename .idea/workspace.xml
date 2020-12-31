@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fdb2106-bd59-4907-b552-e2f014becb35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MainFrame.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainFrame.java" afterDir="false" />
+    <list default="true" id="7fdb2106-bd59-4907-b552-e2f014becb35" name="Default Changelist" comment="print iterations of merge sort seq">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortLogic/SelectionSort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortLogic/SelectionSort/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortLogic/MergeSort/MergeSortSequential.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortLogic/MergeSort/MergeSortSequential.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortLogic/MergeSort/MergeSortUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortLogic/MergeSort/MergeSortUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,19 +162,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Sort" />
@@ -199,7 +185,8 @@
       <workItem from="1609268915188" duration="4308000" />
       <workItem from="1609274283629" duration="8215000" />
       <workItem from="1609326372402" duration="2731000" />
-      <workItem from="1609349283163" duration="9783000" />
+      <workItem from="1609349283163" duration="12589000" />
+      <workItem from="1609412065120" duration="3870000" />
     </task>
     <task id="LOCAL-00001" summary="SelectionSort init form">
       <created>1605964119244</created>
@@ -243,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609345257634</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="GUI v1, print iterations of selection sort">
+      <created>1609361355684</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609361355684</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -321,7 +315,8 @@
     <MESSAGE value="Added MergeSort new approach with interesting results using ForkJoinPool" />
     <MESSAGE value="Code is more self explanatory" />
     <MESSAGE value="Array selection sort, code reorganization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array selection sort, code reorganization" />
+    <MESSAGE value="GUI v1, print iterations of selection sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="GUI v1, print iterations of selection sort" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

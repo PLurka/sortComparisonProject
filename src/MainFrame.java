@@ -72,20 +72,19 @@ public class MainFrame extends JFrame {
                     textOutput.setText("Nie wygenerowano liczb!");
                     return;
                 }
-                long selectionSortTime = selectionSort.sortValues(generatedValues);
+                long selectionSortTime = selectionSort.sortValues(generatedValues.clone());
                 textOutput.append("Czas sortowania przez wybieranie: " + selectionSortTime / TIME_DIVIDER);
 
                 long mergeSortSequentialTime = mergeSortSequential.sortValues(generatedValues.clone());
-                textOutput.append("\nCzas sortowania przez podział sekwencyjnie (net): " + mergeSortSequentialTime / TIME_DIVIDER);
-
+                textOutput.append("\nCzas sortowania przez podział sekwencyjnie: " + mergeSortSequentialTime / TIME_DIVIDER);
 
                 MergeSortParallel mergeSortParallel = new MergeSortParallel(generatedValues.clone(), 0, generatedValues.length - 1);
                 long mergeSortParallelTime = mergeSortParallel.sortValues();
-                textOutput.append("\nCzas sortowania przez podział równolegle (net): " + mergeSortParallelTime / TIME_DIVIDER);
+                textOutput.append("\nCzas sortowania przez podział równolegle: " + mergeSortParallelTime / TIME_DIVIDER);
 
                 MergeSortMixed mergeSortMixed = new MergeSortMixed(generatedValues.clone(), 0, generatedValues.length - 1);
                 long mergeSortMixedTime = mergeSortMixed.sortValues();
-                textOutput.append("\nCzas sortowania przez podział mieszane (net): " + +mergeSortMixedTime / TIME_DIVIDER);
+                textOutput.append("\nCzas sortowania przez podział mieszane: " + +mergeSortMixedTime / TIME_DIVIDER);
             }
         });
         symulujButton.addActionListener(new ActionListener() {
@@ -97,8 +96,11 @@ public class MainFrame extends JFrame {
                     return;
                 }
 
-                String selectionSortOutput = selectionSort.sortAndReturnStringArrays(generatedValues);
+                String selectionSortOutput = selectionSort.sortAndReturnStringArrays(generatedValues.clone());
                 textOutput.append("Przebieg sortowania przez wybieranie: \n " + selectionSortOutput);
+
+                String mergeSortOutput = mergeSortSequential.sortValuesData(generatedValues.clone());
+                textOutput.append("\n\nPrzebieg sortowania przez podział (seq): \n" + mergeSortOutput);
             }
         });
     }
